@@ -7,9 +7,9 @@ class Books extends Component {
    render() {
      console.log(this.props.books)
     return this.props.books
-    // .map((book) => (
-    //     <Book key={book.id} book={book} />
-    // ));
+    .map((book) => (
+        <Book key={book.id} book={book} />
+    ));
   }
 }
 
@@ -18,4 +18,4 @@ Books.propTypes = {
 }
 
 
-export default Book;
+export default Books;

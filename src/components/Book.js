@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 export class Book extends Component {
 
   render() {
-    const { id, title, body } = this.props.books;
+    const { id, title, body } = this.props.book;
     return (
       <div key={ id }>
         <h1>{title}</h1>
