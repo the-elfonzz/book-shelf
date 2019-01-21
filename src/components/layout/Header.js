@@ -14,7 +14,8 @@ function Header() {
 
 const headerStyle = {
     background: '#333',
-    hight: '20vh',
+    color: '#61dafb',
+    hight: '15vh',
     textAlign: 'center',
     padding: '15px'
 }

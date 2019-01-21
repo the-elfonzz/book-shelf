@@ -1,13 +1,25 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
-class Book extends Component {
+
+export class Book extends Component {
+
   render() {
+    const { id, title, body } = this.props.books;
     return (
-      <div>
-
+      <div key={ id }>
+        <h1>{title}</h1>
+        <p>{ body }</p>
       </div>
     );
   }
 }
+
+
+//PropTypes
+Book.propTypes = {
+    book: PropTypes.object.isRequired
+}
+
 
 export default Book;
