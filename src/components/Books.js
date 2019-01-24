@@ -5,7 +5,6 @@ import PropTypes from 'prop-types';
 
 class Books extends Component {
    render() {
-     console.log(this.props.books)
     return this.props.books
     .map((book) => (
         <Book key={book.id} book={book} />

@@ -4,7 +4,7 @@
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 7vmin;
+  height: 12vmin;
 }
 
 .App-header {
@@ -16,6 +16,17 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.sidebar-filter{
+  background-color: #282c34;
+  color: white;
+  height: '100%';
+  min-height: 50vh;
+  margin-right: 80%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .App-link {
